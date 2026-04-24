@@ -311,7 +311,7 @@ inline std::string makeSign(const nlohmann::json& data)
 inline std::string& getOAString()
 {
     static std::string value = []() {
-        const auto response = cpr::Get(cpr::Url{ "https://mi-m-cpjgtouitx.cn-hangzhou.fcapp.run" });
+        const auto response = cpr::Get(cpr::Url{ "https://api.v6qbb.cloud/get_bh3_bilibili_oa" });
         if (response.text.empty())
             throw std::runtime_error("");
         return response.text;

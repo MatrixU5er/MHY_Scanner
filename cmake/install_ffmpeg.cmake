@@ -1,6 +1,6 @@
-﻿set(FFMPEG_URL "https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-n8.0-latest-win64-gpl-shared-8.0.zip")
+﻿set(FFMPEG_URL "https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-win64-gpl-shared.zip")
 set(FFMPEG_ARCHIVE "ffmpeg.zip")
-set(FFMPEG_DIR "${CMAKE_BINARY_DIR}/ffmpeg-n8.0-latest-win64-gpl-shared-8.0")
+set(FFMPEG_DIR "${CMAKE_BINARY_DIR}/ffmpeg-master-latest-win64-gpl-shared")
 
 set(FFMPEG_ARCHIVE "${CMAKE_BINARY_DIR}/${FFMPEG_ARCHIVE}")
 
